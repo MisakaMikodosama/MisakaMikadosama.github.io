@@ -148,6 +148,77 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://misakamikodosama.github.io/C++%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="MisakaMikodosama">
+      <meta itemprop="description" content="������">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Misaka's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/C++%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/" class="post-title-link" itemprop="url">C++学习总结</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-10-17 15:31:16 / 修改时间：15:31:39" itemprop="dateCreated datePublished" datetime="2021-10-17T15:31:16+08:00">2021-10-17</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><strong>1.%与/的区别</strong></p>
+<p>  用%符号，取得的结果是两个数相除后的余数。</p>
+<p>  用/符号，取得的是两个数相除后的结果取整数部分，并且没有四舍五入的规则。‘</p>
+<p><strong>2.C++ 保留两位小数（setprecision(n)的用法）</strong></p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cout&lt;&lt;fixed&lt;&lt;<span class="built_in">setprecision</span>(n);</span><br></pre></td></tr></table></figure>
+
+<p>  要保留几位小数,<strong>setprecision(n)的括号里\n</strong>就换成几。</p>
+<p>  注意：a.使用此段代码时，要加上头文件</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iomanip&gt;</span></span></span><br></pre></td></tr></table></figure>
+
+<p>才可正常使用;</p>
+<p>  b.设置保留两位小数之后，重新声明另一个数，输出依旧显示两位小数。所以语句只需写一次即可。</p>
+<p>  c.单用setprecision(n)是控制保留<strong>几位有效数字</strong>的。（setprecision(n)的<strong>功能</strong>：控制浮点数<strong>显示的</strong>有效数字个数。）如果要保留的位数太多，数字后面是不会补上0的。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://misakamikodosama.github.io/tese---%E6%B5%8B%E8%AF%95/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -339,7 +410,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
